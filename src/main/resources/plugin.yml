@@ -1,0 +1,4 @@
+name: find_base
+version: '1.0-SNAPSHOT'
+main: lobby.find_base.Find_base
+api-version: '1.20'
