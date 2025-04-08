@@ -1,4 +1,10 @@
 name: find_base
 version: '1.0-SNAPSHOT'
-main: lobby.find_base.Find_base
+main: lobby.find_base.find_base
 api-version: '1.20'
+
+commands:
+  set_base:
+    description: "座標が入力されていない場合はその場所にコンパスの指す場所を作れます、座標を指定すればその場所をコンパスが指すようになります"
+  get_findbase:
+    description: "find_baseを取得"
